@@ -6,7 +6,7 @@ import WebSocket from "ws";
 
 const PORT = process.env.PORT || 10000;
 const APP_ID = process.env.DERIV_APP_ID || "1089";
-const WS_URL = `wss://ws.binaryws.com/websockets/v3?app_id=${APP_ID}`;
+const WS_URL = const WS_URL = `wss://ws.derivws.com/websockets/v3?app_id=${APP_ID}`;
 const SYMBOL = process.env.DERIV_SYMBOL || "frxXAUUSD"; // Deriv's gold/USD symbol
 const GRANULARITY = 900; // 15 minutes
 const EMA_PERIOD = 50;
